@@ -33,5 +33,5 @@ Command : mocha test/getTourTest.js<br/>
 
 =======
 # AWS
-Hosting : https://dev.d3h8udtogu4113.amplifyapp.com/
+Hosting : https://dev.d17l673sh63you.amplifyapp.com/
 

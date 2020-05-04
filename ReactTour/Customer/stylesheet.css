@@ -1,0 +1,81 @@
+body{
+	background-color: black;
+	}
+h1{     margin-top:10px;
+        font-family:chiller;
+        color: whitesmoke;
+        font-size: 100px;
+        text-align: center;
+	}
+label{
+	color: whitesmoke;
+}
+button{
+   font-family:Century;
+   float: left;
+}
+h4 , h2{
+	margin-left:300px;
+	margin-right:300px;
+	color: whitesmoke;
+}
+
+p{
+	margin-left:300px;
+  margin-right:300px;
+	color: whitesmoke;
+}
+
+.Center {
+  margin-top: 30px;
+  margin-left: 300px;
+  margin-right: auto;
+  width: 50%;
+
+}
+.topNavigation {
+  background-color: black;
+  overflow: auto;
+}
+.topNavigation button{
+  background-color: green;
+  height: 30px;
+  width: 20%;
+  color:whitesmoke;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 15px;
+}
+.topNavigation button:hover {
+  background-color:whitesmoke;
+  color: black;
+}
+.topNavigation button.active {
+  background-color:whitesmoke;
+  color: white;
+}
+fieldset
+{
+  border-color: seagreen;
+  border-style: ridge;
+}
+main{
+ margin-left: auto;
+ margin-right: auto;
+
+}
+ul{
+	margin-left:300px;
+	margin-right:300px;
+	color: whitesmoke;
+}
+.logInApp{
+		margin-left:300px;
+
+}
+tr,td,table{
+	background-color: whitesmoke;
+}
+th{
+	width: 50%;
+}

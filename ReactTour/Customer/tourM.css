@@ -1,0 +1,27 @@
+#ts{
+  align-content: right;
+  background-color:skyblue;
+  margin-right: 250px;
+  margin-left: 200px;
+}
+table, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+td{
+  width: 300px;
+}
+table{
+  border-spacing: 5px;
+  width: 80%;
+}
+
+h2{
+  text-align: center;
+
+}
+
+th {
+  width: auto;
+  border: 1px solid black;
+}

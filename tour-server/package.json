@@ -1,0 +1,31 @@
+{
+  "name": "tourServer",
+  "version": "1.0.0",
+  "description": "A server for managing tour data",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "tour",
+    "server",
+    "express"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "nedb-promises": "^6.2.3",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "request-promise-native": "^1.0.5",
+    "winston": "^3.14.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^10.7.3",
+    "supertest": "^4.0.2"
+  }
+}

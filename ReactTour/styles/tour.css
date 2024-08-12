@@ -1,28 +1,43 @@
 #ts{
-    display: grid;
-    align-content: right;
+    display: block;
+    align-content: center;
     background-color:skyblue;
-    margin-right: auto;
-
+    margin-right: 250px;
+    margin-left: 200px;
 }
-table, td{
+#menu{
+    margin-left: 20px;
+    margin-right: 20px;
     border: 1px solid black;
-    border-collapse: collapse;
 }
-td{
-    width: 300px;
+h1,h3,h3,h5,h6{
+    color: white;
+}
+h2{
+    color: black;
 }
 table{
-    margin-left: 200px;
-    border-spacing: 5px;
-    width: 80%;
+    margin-left: 40%;
+}
+th, td {
+    color : black;
+    text-align : center;
+    font-size : 20px;
+    border : 2px solid black;
+}
+
+button {
+    background-color : #b1b1ac;
+    font-family : "Comic Sans MS", Monaco, monospace;
+    font-size : 15px;
+    margin: auto;
+    display: block;
+
 }
 
 h2{
     text-align: center;
-
 }
-
-th {
-    border: 1px solid black;
+lable{
+    color: black;
 }

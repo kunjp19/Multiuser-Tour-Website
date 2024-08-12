@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/tourM.css"
+import "../styles/tour.css"
 
 export default class TourTable extends React.Component {
     constructor(props) {

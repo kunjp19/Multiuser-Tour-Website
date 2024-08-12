@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/stylesheet.css";
-import paddleboard2Image from "../public/paddleboard2.jpeg";
+import paddleboard2Image from "../public/paddleboard.jpeg";
 let padImage = <img className="Center" src={paddleboard2Image}/>;
 
 

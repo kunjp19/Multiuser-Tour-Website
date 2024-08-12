@@ -4,11 +4,6 @@ import Home from "./Home.js";
 import AboutUs from "./About.js";
 import Login from "./Login.js";
 import Tour from "./Tour.js"
-import paddleboard1 from "../public/paddleboard1.jpeg";
-import paddleboard2 from "../public/paddleboard2.jpeg";
-
-let padImage1 = <img className="Center" src={paddleboard1}/>;
-let padImage2 = <img className="Center" src={paddleboard2}/>;
 
 export default class GuestApp extends React.Component {
     constructor(props) {

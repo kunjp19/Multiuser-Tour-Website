@@ -1,22 +1,22 @@
 {
   "name": "ReactTour",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "public/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
-  "author": "",
+  "author": "Kunjkuamr Patel",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2"
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   },
   "devDependencies": {
-    "cssnano": "^4.1.10",
+    "cssnano": "^7.0.5",
     "http-proxy-middleware": "^0.20.0",
     "parcel-bundler": "^1.12.4"
   },
-  "description": ""
+  "description": "A brief description of the ReactTour project"
 }

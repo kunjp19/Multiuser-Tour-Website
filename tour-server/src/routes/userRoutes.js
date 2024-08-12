@@ -43,15 +43,18 @@ router.post('/login', express.json(), async (req, res) => {
 });
 
 router.get('/logout', (req, res) => {
-    req.session.destroy((err) => {
-        if (err) {
-            console.error(`Logout error: ${err}`);
-            return res.status(500).json({ error: true, message: "Internal server error" });
-        }
-        res.clearCookie('TourSid', req.session.cookie);
-        console.log(`User logged out successfully`);
-        res.json({ message: "Goodbye" });
-    });
+    if (req.session) {
+        req.session.destroy((err) => {
+            if (err) {
+                console.error(`Logout error: ${err}`);
+                return res.status(500).json({ error: true, message: "Internal server error" });
+            }
+            res.clearCookie('TourSid', { path: '/' });
+            console.log(`User logged out successfully`);
+            res.json({ message: "Goodbye" });
+        });
+    } else {
+        res.status(400).json({ error: true, message: "No active session" });
+    }
 });
-
 module.exports = router;

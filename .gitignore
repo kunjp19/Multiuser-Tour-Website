@@ -1,2 +1,5 @@
 /.idea/
 /tour-server/node_modules/
+/ReactTour/.cache/
+/ReactTour/dist/
+/ReactTour/node_modules/

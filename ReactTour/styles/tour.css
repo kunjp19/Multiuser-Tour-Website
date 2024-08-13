@@ -10,11 +10,12 @@
     margin-right: 20px;
     border: 1px solid black;
 }
-h1,h3,h3,h5,h6{
+h1,h3,h5,h6{
     color: white;
 }
 h2{
     color: black;
+    text-align: center;
 }
 table{
     margin-left: 40%;
@@ -32,12 +33,8 @@ button {
     font-size : 15px;
     margin: auto;
     display: block;
-
 }
 
-h2{
-    text-align: center;
-}
-lable{
+label{
     color: black;
 }

@@ -13,7 +13,7 @@ function AboutUs() {
         <ul>
             <li>Stability</li>
             <li>Enough Volume</li>
-            <li>Lenghth</li>
+            <li>Length</li>
             <li>Width</li>
         </ul>
     </div>
